@@ -1,9 +1,94 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-  </head>
-  <body>
-    Petr je gej!
-    <audio controls autoplay src="petrjegay.mp3"></audio>
-  </body>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Podporujeme Péťu!</title>
+
+    <!-- Google Font: Lobster -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Lobster', sans-serif;
+            background-color: #fce4ec;
+            color: #d81b60;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #d81b60;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .rainbow-text {
+            background: linear-gradient(90deg, #ff0000, #ff9900, #33cc33, #3399ff, #9900cc);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #ff4081;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+
+        .button:hover {
+            background-color: #f50057;
+        }
+
+        .audio-player {
+            margin-top: 30px;
+        }
+
+        .flag {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="rainbow-text">Podporujeme Péťu! 💖</h1>
+    <p>Milujeme tě, Péťo! Tvá odvaha nás inspiruje. 🌈</p>
+
+    <!-- Duhová vlajka -->
+    <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/1024px-Gay_Pride_Flag.svg.png" alt="Duhová vlajka">
+
+    <div class="audio-player">
+        <p>Poslechni si naši oblíbenou písničku pro tebe:</p>
+        <audio controls>
+            <source src="petrjegay.mp3" type="audio/mp3">
+            Váš prohlížeč nepodporuje audio tag.
+        </audio>
+    </div>
+
+    <p>Chceš si zahrát hru? Tady je odkaz na jednu super hru:</p>
+    <a href="https://www.agar.io" class="button" target="_blank">Zahraj si Agar.io</a>
+
+    <footer>
+        <p>Společně to zvládneme! 💪💖</p>
+    </footer>
+
+</body>
 </html>
